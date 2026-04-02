@@ -14,7 +14,7 @@ app.add_middleware(
     allow_origins=[
     "https://mjproject-f13dgjyyc-vibhav2004s-projects.vercel.app"
 ],
-allow_credentials=True,
+allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
