@@ -1,0 +1,2944 @@
+{
+  "session_id": "session_189",
+  "total_tests": 189,
+  "passed_tests": 34,
+  "failed_tests": 0,
+  "error_tests": 155,
+  "avg_execution_time": 0.2211,
+  "results": [
+    {
+      "test_id": "f4426c9d",
+      "input_values": {
+        "task_id": null,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "CRITICAL: Null Check (task_id)"
+      },
+      "actual_output": null,
+      "execution_time": 0.2173,
+      "memory_usage": 9.51,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5ac8pypq.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5ac8pypq.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "86f55967",
+      "input_values": {
+        "task_id": 1,
+        "priority": null,
+        "duration": 1,
+        "_strategy": "CRITICAL: Null Check (priority)"
+      },
+      "actual_output": null,
+      "execution_time": 0.2118,
+      "memory_usage": 11.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpb9nelmec.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpb9nelmec.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "eff8c5e6",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": null,
+        "_strategy": "CRITICAL: Null Check (duration)"
+      },
+      "actual_output": null,
+      "execution_time": 0.2186,
+      "memory_usage": 10.37,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphvmh25yt.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphvmh25yt.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "9c328efb",
+      "input_values": {
+        "task_id": 0,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2152,
+      "memory_usage": 12.49,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpd2x_gwx_.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpd2x_gwx_.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1e077458",
+      "input_values": {
+        "task_id": -1,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2137,
+      "memory_usage": 11.68,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpde41imli.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpde41imli.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a38ad1b1",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2122,
+      "memory_usage": 11.72,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjjhlqxd5.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjjhlqxd5.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "0bea0003",
+      "input_values": {
+        "task_id": 2147483647,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2171,
+      "memory_usage": 11.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpyk08adx0.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpyk08adx0.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "bfcf17c2",
+      "input_values": {
+        "task_id": -2147483648,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2171,
+      "memory_usage": 11.04,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3b9vebcc.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3b9vebcc.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "cdb26325",
+      "input_values": {
+        "task_id": 1,
+        "priority": 0,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2175,
+      "memory_usage": 10.77,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8sbll26d.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8sbll26d.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ad7b7d9e",
+      "input_values": {
+        "task_id": 1,
+        "priority": -1,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2128,
+      "memory_usage": 10.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpwzc694a_.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpwzc694a_.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7d725363",
+      "input_values": {
+        "task_id": 1,
+        "priority": 2147483647,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2144,
+      "memory_usage": 10.91,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1wuuggxn.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1wuuggxn.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "aba3ea18",
+      "input_values": {
+        "task_id": 1,
+        "priority": -2147483648,
+        "duration": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.217,
+      "memory_usage": 11.04,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpthj0rpqf.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpthj0rpqf.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f9f50b99",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 0,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2147,
+      "memory_usage": 12,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppdf5k0op.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppdf5k0op.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6378f75d",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": -1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2133,
+      "memory_usage": 12.62,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpteu3ovdr.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpteu3ovdr.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b564fc02",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 2147483647,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2104,
+      "memory_usage": 11.99,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphv4yx0wb.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphv4yx0wb.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8994c405",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": -2147483648,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2133,
+      "memory_usage": 11.98,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjvdfxp84.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjvdfxp84.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6f3287ac",
+      "input_values": {
+        "task_id": 2,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2136,
+      "memory_usage": 11.27,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8yttxvam.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8yttxvam.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a354837a",
+      "input_values": {
+        "task_id": 3,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2094,
+      "memory_usage": 11.61,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmptwt13g5p.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmptwt13g5p.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "430fee16",
+      "input_values": {
+        "task_id": 4,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2098,
+      "memory_usage": 12.28,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpiowdku3r.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpiowdku3r.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "19b22965",
+      "input_values": {
+        "task_id": 1,
+        "priority": 2,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2114,
+      "memory_usage": 12.32,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpsgu7nw45.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpsgu7nw45.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "01195896",
+      "input_values": {
+        "task_id": 1,
+        "priority": 3,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2127,
+      "memory_usage": 10.12,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1b4mg0vm.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1b4mg0vm.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c810ebcf",
+      "input_values": {
+        "task_id": 1,
+        "priority": 4,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2158,
+      "memory_usage": 11.06,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph1_f6h5z.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph1_f6h5z.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "4d7e2b71",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 2,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2168,
+      "memory_usage": 11.61,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppxfjm8p9.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppxfjm8p9.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8fb14adf",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 3,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2166,
+      "memory_usage": 10.86,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7f9stqwn.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7f9stqwn.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "4194e4c1",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 4,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2172,
+      "memory_usage": 11.4,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmugwvx18.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmugwvx18.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "61255d61",
+      "input_values": {
+        "task_id": 9,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2169,
+      "memory_usage": 11.62,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfdv5ud4g.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfdv5ud4g.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "d10787dd",
+      "input_values": {
+        "task_id": 10,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2162,
+      "memory_usage": 11.27,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpwb83b_ze.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpwb83b_ze.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "4be106de",
+      "input_values": {
+        "task_id": 11,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.216,
+      "memory_usage": 11.89,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmzz72j55.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmzz72j55.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c7f69b19",
+      "input_values": {
+        "task_id": 1,
+        "priority": 9,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2118,
+      "memory_usage": 11.27,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfnyd997y.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfnyd997y.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b0220220",
+      "input_values": {
+        "task_id": 1,
+        "priority": 10,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2191,
+      "memory_usage": 11.77,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpwhnoo0c7.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpwhnoo0c7.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "0c92813e",
+      "input_values": {
+        "task_id": 1,
+        "priority": 11,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2172,
+      "memory_usage": 10.46,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9xqbcytu.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9xqbcytu.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "503165b0",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 9,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2162,
+      "memory_usage": 11.84,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprkvfdfek.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprkvfdfek.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "bb308431",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 10,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2185,
+      "memory_usage": 10.32,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpahyu34m9.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpahyu34m9.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "20752043",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 11,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2173,
+      "memory_usage": 11.79,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuixc9j0l.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuixc9j0l.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "975876d6",
+      "input_values": {
+        "task_id": 49,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2163,
+      "memory_usage": 10.77,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4ygfbwtr.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4ygfbwtr.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "d7e4ac60",
+      "input_values": {
+        "task_id": 50,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2151,
+      "memory_usage": 12.02,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpc7pd_non.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpc7pd_non.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b7017cd6",
+      "input_values": {
+        "task_id": 51,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2204,
+      "memory_usage": 11.85,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmg8pateq.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmg8pateq.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "39bbea31",
+      "input_values": {
+        "task_id": 1,
+        "priority": 49,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.217,
+      "memory_usage": 10.76,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpj5b31ipe.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpj5b31ipe.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b319e1df",
+      "input_values": {
+        "task_id": 1,
+        "priority": 50,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2153,
+      "memory_usage": 11.59,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9vk020om.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9vk020om.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "5c79cc35",
+      "input_values": {
+        "task_id": 1,
+        "priority": 51,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2184,
+      "memory_usage": 10.84,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7d2p5nux.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7d2p5nux.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "33f3b6d7",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 49,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.3176,
+      "memory_usage": 12.67,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5bsf4yh9.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5bsf4yh9.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "979618b6",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 50,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2127,
+      "memory_usage": 10.74,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt5cjmkft.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt5cjmkft.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c8efdc74",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 51,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.3184,
+      "memory_usage": 12.69,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmps89yfqbt.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmps89yfqbt.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "cd95f66c",
+      "input_values": {
+        "task_id": 199,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.216,
+      "memory_usage": 9.5,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphhpt1y60.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphhpt1y60.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6400f462",
+      "input_values": {
+        "task_id": 200,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2147,
+      "memory_usage": 11.38,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvgi5wh7z.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvgi5wh7z.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b0ead9a2",
+      "input_values": {
+        "task_id": 201,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2139,
+      "memory_usage": 10.93,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3fqea97p.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3fqea97p.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "184ceb92",
+      "input_values": {
+        "task_id": 1,
+        "priority": 199,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2129,
+      "memory_usage": 11.08,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzrwqylzt.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzrwqylzt.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "4119f35f",
+      "input_values": {
+        "task_id": 1,
+        "priority": 200,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2161,
+      "memory_usage": 11.63,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2zbyyvi1.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2zbyyvi1.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1d672d7d",
+      "input_values": {
+        "task_id": 1,
+        "priority": 201,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2166,
+      "memory_usage": 11.89,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmcungxog.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpmcungxog.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f8400f76",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 199,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2144,
+      "memory_usage": 11.75,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_bh8r300.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_bh8r300.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "594d109c",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 200,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2112,
+      "memory_usage": 10.75,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3_0p0o8l.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3_0p0o8l.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "57fb6977",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 201,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.3166,
+      "memory_usage": 12.15,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpcx7e_dpb.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpcx7e_dpb.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "280c3b08",
+      "input_values": {
+        "task_id": 99,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2175,
+      "memory_usage": 11.59,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpb0igosy1.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpb0igosy1.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "272931bb",
+      "input_values": {
+        "task_id": 100,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2163,
+      "memory_usage": 12.67,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_t0_u658.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_t0_u658.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1ee9385a",
+      "input_values": {
+        "task_id": 101,
+        "priority": 1,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2155,
+      "memory_usage": 11.53,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1_51geu1.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1_51geu1.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "d391766a",
+      "input_values": {
+        "task_id": 1,
+        "priority": 99,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2126,
+      "memory_usage": 11.62,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprituoumy.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprituoumy.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f3ce57b1",
+      "input_values": {
+        "task_id": 1,
+        "priority": 100,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2171,
+      "memory_usage": 10.73,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxqy7s5kz.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxqy7s5kz.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a3a72ea5",
+      "input_values": {
+        "task_id": 1,
+        "priority": 101,
+        "duration": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2125,
+      "memory_usage": 12.3,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpqm962oih.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpqm962oih.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "79b43b15",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 99,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2176,
+      "memory_usage": 11.32,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphfd5i0_8.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphfd5i0_8.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "fd941224",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 100,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2181,
+      "memory_usage": 11.59,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph1mtj1d6.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph1mtj1d6.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "26b1008b",
+      "input_values": {
+        "task_id": 1,
+        "priority": 1,
+        "duration": 101,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2181,
+      "memory_usage": 11.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpehd51xq4.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpehd51xq4.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "839c49ea",
+      "input_values": {
+        "task_id": -696,
+        "priority": -957,
+        "duration": -370,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2178,
+      "memory_usage": 10.72,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpm568nj5m.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpm568nj5m.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ff687602",
+      "input_values": {
+        "task_id": -98,
+        "priority": -655,
+        "duration": -121,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.214,
+      "memory_usage": 12.55,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4276wafv.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4276wafv.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c925171a",
+      "input_values": {
+        "task_id": 368,
+        "priority": -296,
+        "duration": -568,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.215,
+      "memory_usage": 10.41,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpa7lojty3.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpa7lojty3.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "fa95bca8",
+      "input_values": {
+        "task_id": 827,
+        "priority": 217,
+        "duration": 698,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2152,
+      "memory_usage": 11.23,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpov9u1n38.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpov9u1n38.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a9ce36f1",
+      "input_values": {
+        "task_id": 68,
+        "priority": -520,
+        "duration": 753,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2179,
+      "memory_usage": 10.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq84t3cza.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq84t3cza.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "dcf7d127",
+      "input_values": {
+        "task_id": -343,
+        "priority": 881,
+        "duration": 695,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2096,
+      "memory_usage": 12.69,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkywz3t0x.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkywz3t0x.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c1834cfc",
+      "input_values": {
+        "task_id": 798,
+        "priority": -470,
+        "duration": 268,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2099,
+      "memory_usage": 12.49,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2vcxaj2y.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2vcxaj2y.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "89256f66",
+      "input_values": {
+        "task_id": -244,
+        "priority": 853,
+        "duration": -722,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.211,
+      "memory_usage": 12.66,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt3g8hm07.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt3g8hm07.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ee5a626e",
+      "input_values": {
+        "task_id": -180,
+        "priority": 140,
+        "duration": 170,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2089,
+      "memory_usage": 12.56,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp02mmvnlb.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp02mmvnlb.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "714833d5",
+      "input_values": {
+        "task_id": -906,
+        "priority": -552,
+        "duration": -879,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2084,
+      "memory_usage": 12.44,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxlbk5a9b.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxlbk5a9b.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "481b77c8",
+      "input_values": {
+        "other": null,
+        "_strategy": "CRITICAL: Null Check (other)"
+      },
+      "actual_output": null,
+      "execution_time": 0.2119,
+      "memory_usage": 13.13,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphrfuz8zc.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmphrfuz8zc.py\", line 177, in run_test\n    instance = target() if isinstance(target, type) else target\n               ~~~~~~^^\nTypeError: Task.__init__() missing 3 required positional arguments: 'task_id', 'priority', and 'duration'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b43bfec6",
+      "input_values": {
+        "worker_count": null,
+        "_strategy": "CRITICAL: Null Check (worker_count)"
+      },
+      "actual_output": null,
+      "execution_time": 0.2192,
+      "memory_usage": 12.8,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnwqdymug.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnwqdymug.py\", line 44, in __init__\n    self.workers = {i: 0 for i in range(worker_count)} # worker_id -> current_load\n                                  ~~~~~^^^^^^^^^^^^^^\nTypeError: 'NoneType' object cannot be interpreted as an integer\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnwqdymug.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnwqdymug.py\", line 44, in __init__\n    self.workers = {i: 0 for i in range(worker_count)} # worker_id -> current_load\n                                  ~~~~~^^^^^^^^^^^^^^\nTypeError: 'NoneType' object cannot be interpreted as an integer\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8d215148",
+      "input_values": {
+        "worker_count": 0,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2181,
+      "memory_usage": 1.59,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6d9b706c",
+      "input_values": {
+        "worker_count": -1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2161,
+      "memory_usage": 11.27,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ee62d504",
+      "input_values": {
+        "worker_count": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2166,
+      "memory_usage": 10.93,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7ec098fe",
+      "input_values": {
+        "worker_count": 2147483647,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.7167,
+      "memory_usage": 651.56,
+      "status": "ERROR",
+      "exception_trace": "",
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "test_id": "e7c3cbed",
+      "input_values": {
+        "worker_count": -2147483648,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2113,
+      "memory_usage": 10.82,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "4837bb5f",
+      "input_values": {
+        "worker_count": 2,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2178,
+      "memory_usage": 10.17,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ec7d2903",
+      "input_values": {
+        "worker_count": 3,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2144,
+      "memory_usage": 10.48,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "5f859a5b",
+      "input_values": {
+        "worker_count": 4,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2172,
+      "memory_usage": 11.21,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6f8f3c61",
+      "input_values": {
+        "worker_count": 9,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2174,
+      "memory_usage": 10.96,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "cec44149",
+      "input_values": {
+        "worker_count": 10,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2148,
+      "memory_usage": 11.01,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "361c5a98",
+      "input_values": {
+        "worker_count": 11,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2141,
+      "memory_usage": 11.2,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "14ea810f",
+      "input_values": {
+        "worker_count": 49,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2152,
+      "memory_usage": 11.59,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7b2f0f74",
+      "input_values": {
+        "worker_count": 50,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.1116,
+      "memory_usage": 1.59,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c8fe1ce5",
+      "input_values": {
+        "worker_count": 51,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.1088,
+      "memory_usage": 1.59,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "cc7e07a4",
+      "input_values": {
+        "worker_count": 199,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.211,
+      "memory_usage": 11.64,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "2d9d42b4",
+      "input_values": {
+        "worker_count": 200,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2174,
+      "memory_usage": 10.63,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7016fca1",
+      "input_values": {
+        "worker_count": 201,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2159,
+      "memory_usage": 11.99,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "167549fe",
+      "input_values": {
+        "worker_count": 99,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2139,
+      "memory_usage": 10.89,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6924f787",
+      "input_values": {
+        "worker_count": 100,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2179,
+      "memory_usage": 11.17,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "22645655",
+      "input_values": {
+        "worker_count": 101,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2183,
+      "memory_usage": 11.83,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "86f6b9da",
+      "input_values": {
+        "worker_count": 578,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2159,
+      "memory_usage": 10.75,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "13a817a9",
+      "input_values": {
+        "worker_count": -84,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2149,
+      "memory_usage": 11.22,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "dcf50972",
+      "input_values": {
+        "worker_count": 230,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.1089,
+      "memory_usage": 1.59,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "3ff8e177",
+      "input_values": {
+        "worker_count": -534,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.112,
+      "memory_usage": 1.57,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "345d491a",
+      "input_values": {
+        "worker_count": -508,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.1082,
+      "memory_usage": 1.55,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f24bcdf8",
+      "input_values": {
+        "worker_count": 34,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2106,
+      "memory_usage": 11.67,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "3908b063",
+      "input_values": {
+        "worker_count": 571,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2169,
+      "memory_usage": 11.74,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7319a6ff",
+      "input_values": {
+        "worker_count": -152,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2147,
+      "memory_usage": 11.82,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6b7136e3",
+      "input_values": {
+        "worker_count": -234,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2144,
+      "memory_usage": 11.27,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8453484d",
+      "input_values": {
+        "worker_count": -866,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": "null",
+      "execution_time": 0.2158,
+      "memory_usage": 11.8,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\nnull\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "cc22a7e5",
+      "input_values": {
+        "tasks_data": null,
+        "global_limit": 1,
+        "_strategy": "CRITICAL: Null Check (tasks_data)"
+      },
+      "actual_output": "{\"status\": \"empty\", \"assignments\": {}}",
+      "execution_time": 0.2167,
+      "memory_usage": 10.67,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\n{\"status\": \"empty\", \"assignments\": {}}\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "5e6ff776",
+      "input_values": {
+        "tasks_data": [],
+        "global_limit": 1,
+        "_strategy": "CRITICAL: Empty Check (tasks_data)"
+      },
+      "actual_output": "{\"status\": \"empty\", \"assignments\": {}}",
+      "execution_time": 0.2153,
+      "memory_usage": 10.23,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\n{\"status\": \"empty\", \"assignments\": {}}\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "473daa08",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": null,
+        "_strategy": "CRITICAL: Null Check (global_limit)"
+      },
+      "actual_output": null,
+      "execution_time": 0.2142,
+      "memory_usage": 11.29,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppdygj24m.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppdygj24m.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppdygj24m.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppdygj24m.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "2493e232",
+      "input_values": {
+        "tasks_data": 0,
+        "global_limit": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": "{\"status\": \"empty\", \"assignments\": {}}",
+      "execution_time": 0.2137,
+      "memory_usage": 10.84,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\n{\"status\": \"empty\", \"assignments\": {}}\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "669f1d90",
+      "input_values": {
+        "tasks_data": -1,
+        "global_limit": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2176,
+      "memory_usage": 10.96,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3mfvpnzp.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3mfvpnzp.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3mfvpnzp.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3mfvpnzp.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8b66ec0f",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.217,
+      "memory_usage": 11.23,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmped13r3xc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmped13r3xc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmped13r3xc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmped13r3xc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "5496b15b",
+      "input_values": {
+        "tasks_data": 2147483647,
+        "global_limit": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2167,
+      "memory_usage": 11.54,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_w5ngh9p.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_w5ngh9p.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_w5ngh9p.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_w5ngh9p.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "5b68ea1a",
+      "input_values": {
+        "tasks_data": -2147483648,
+        "global_limit": 1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2157,
+      "memory_usage": 10.9,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgtoalu_u.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgtoalu_u.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgtoalu_u.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgtoalu_u.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "e112fa9d",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 0,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2144,
+      "memory_usage": 10.9,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkhkfq48l.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkhkfq48l.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkhkfq48l.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkhkfq48l.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "37b3b808",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": -1,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2164,
+      "memory_usage": 12.14,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5s7vxcfv.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5s7vxcfv.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5s7vxcfv.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp5s7vxcfv.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8f7df8f7",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 2147483647,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2158,
+      "memory_usage": 11.27,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpx9gkw5hj.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpx9gkw5hj.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpx9gkw5hj.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpx9gkw5hj.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "e62b55a1",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": -2147483648,
+        "_strategy": "System Boundary Analysis"
+      },
+      "actual_output": null,
+      "execution_time": 0.2155,
+      "memory_usage": 11.89,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2841wt9c.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2841wt9c.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2841wt9c.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2841wt9c.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "eede0734",
+      "input_values": {
+        "tasks_data": 2,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2145,
+      "memory_usage": 12.2,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpr5sxf95c.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpr5sxf95c.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpr5sxf95c.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpr5sxf95c.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c8d6748a",
+      "input_values": {
+        "tasks_data": 3,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2144,
+      "memory_usage": 12.43,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbd1fcx5x.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbd1fcx5x.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbd1fcx5x.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbd1fcx5x.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c5632bdc",
+      "input_values": {
+        "tasks_data": 4,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2165,
+      "memory_usage": 11.26,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq5pg6xx8.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq5pg6xx8.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq5pg6xx8.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq5pg6xx8.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1e5dd352",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 2,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2158,
+      "memory_usage": 10.97,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq41g9bfw.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq41g9bfw.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq41g9bfw.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpq41g9bfw.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "da61b91c",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 3,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2091,
+      "memory_usage": 11.84,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxnrk5cz5.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxnrk5cz5.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxnrk5cz5.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxnrk5cz5.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7aa4b925",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 4,
+        "_strategy": "Contextual Edge: 3 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2107,
+      "memory_usage": 12.59,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1eg6qhgb.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1eg6qhgb.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1eg6qhgb.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp1eg6qhgb.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "47411206",
+      "input_values": {
+        "tasks_data": 9,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2095,
+      "memory_usage": 13.57,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpw2frf446.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpw2frf446.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpw2frf446.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpw2frf446.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "11591a90",
+      "input_values": {
+        "tasks_data": 10,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2078,
+      "memory_usage": 12.95,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvxskjcg1.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvxskjcg1.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvxskjcg1.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvxskjcg1.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "2edce1fc",
+      "input_values": {
+        "tasks_data": 11,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2119,
+      "memory_usage": 11.85,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp98k7ki5_.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp98k7ki5_.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp98k7ki5_.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp98k7ki5_.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a01c8031",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 9,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2139,
+      "memory_usage": 11.29,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8upin2qh.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8upin2qh.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8upin2qh.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8upin2qh.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "e3beeb66",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 10,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.209,
+      "memory_usage": 13.25,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3r6yvqpa.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3r6yvqpa.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3r6yvqpa.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3r6yvqpa.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "2dd518e5",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 11,
+        "_strategy": "Contextual Edge: 10 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2089,
+      "memory_usage": 12.84,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpc7riewvy.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpc7riewvy.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpc7riewvy.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpc7riewvy.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1aebb8d9",
+      "input_values": {
+        "tasks_data": "processed_count",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: processed_count"
+      },
+      "actual_output": null,
+      "execution_time": 0.21,
+      "memory_usage": 12.18,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnxgcr9yx.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnxgcr9yx.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnxgcr9yx.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnxgcr9yx.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "20dc7fa7",
+      "input_values": {
+        "tasks_data": "worker",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: worker"
+      },
+      "actual_output": null,
+      "execution_time": 0.2166,
+      "memory_usage": 10.76,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp10bqtdr0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp10bqtdr0.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp10bqtdr0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp10bqtdr0.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "dc4050f1",
+      "input_values": {
+        "tasks_data": "duration",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: duration"
+      },
+      "actual_output": null,
+      "execution_time": 0.2152,
+      "memory_usage": 10.21,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxam_i0tu.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxam_i0tu.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxam_i0tu.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxam_i0tu.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ff69d64a",
+      "input_values": {
+        "tasks_data": 49,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2168,
+      "memory_usage": 11.23,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp86jki3rc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp86jki3rc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp86jki3rc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp86jki3rc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "e6226794",
+      "input_values": {
+        "tasks_data": 50,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2098,
+      "memory_usage": 11.92,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7zmmbeq2.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7zmmbeq2.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7zmmbeq2.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7zmmbeq2.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1cf8d6b0",
+      "input_values": {
+        "tasks_data": 51,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2163,
+      "memory_usage": 10.7,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvodbxsds.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvodbxsds.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvodbxsds.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvodbxsds.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1ef0712b",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 49,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2155,
+      "memory_usage": 11.96,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4qlqnmnd.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4qlqnmnd.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4qlqnmnd.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4qlqnmnd.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "24eeb7dc",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 50,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2155,
+      "memory_usage": 10.9,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgfcytgar.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgfcytgar.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgfcytgar.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpgfcytgar.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "660faade",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 51,
+        "_strategy": "Contextual Edge: 50 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2153,
+      "memory_usage": 10.93,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvuxwzhbc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvuxwzhbc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvuxwzhbc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvuxwzhbc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "3b988044",
+      "input_values": {
+        "tasks_data": "\n    Advanced Simulated Load Balancer Algorithm.\n    Distributes tasks across workers based on load and priority.\n    Tests: Custom object handling, Priority Queues, Logic Branches.\n    ",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: \n    Advanced Simulated Load Balancer Algorithm.\n    Distributes tasks across workers based on load and priority.\n    Tests: Custom object handling, Priority Queues, Logic Branches.\n    "
+      },
+      "actual_output": null,
+      "execution_time": 0.2109,
+      "memory_usage": 13.36,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp561j2afv.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp561j2afv.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp561j2afv.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp561j2afv.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "bb9c7256",
+      "input_values": {
+        "tasks_data": "system_efficiency",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: system_efficiency"
+      },
+      "actual_output": null,
+      "execution_time": 0.2147,
+      "memory_usage": 10.63,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt5dgcdcn.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt5dgcdcn.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt5dgcdcn.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt5dgcdcn.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "d9b3f42e",
+      "input_values": {
+        "tasks_data": "Entry point for the AutoTestAI generator",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: Entry point for the AutoTestAI generator"
+      },
+      "actual_output": null,
+      "execution_time": 0.2149,
+      "memory_usage": 11.95,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprhjgtpo0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprhjgtpo0.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprhjgtpo0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmprhjgtpo0.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "957989ae",
+      "input_values": {
+        "tasks_data": 199,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2171,
+      "memory_usage": 11.71,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpqg29_rjy.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpqg29_rjy.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpqg29_rjy.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpqg29_rjy.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "bc2e2ff0",
+      "input_values": {
+        "tasks_data": 200,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2173,
+      "memory_usage": 11.49,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkrehz880.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkrehz880.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkrehz880.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkrehz880.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "4fd31b24",
+      "input_values": {
+        "tasks_data": 201,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2132,
+      "memory_usage": 12.32,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9ubgj3ge.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9ubgj3ge.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9ubgj3ge.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9ubgj3ge.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b3d89dd6",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 199,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2177,
+      "memory_usage": 11.61,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp337kh5sd.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp337kh5sd.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp337kh5sd.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp337kh5sd.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1bf7cf26",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 200,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2154,
+      "memory_usage": 12.37,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2k7ru4y9.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2k7ru4y9.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2k7ru4y9.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2k7ru4y9.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "25a16268",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 201,
+        "_strategy": "Contextual Edge: 200 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2099,
+      "memory_usage": 11.2,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpcp3sip5y.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpcp3sip5y.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpcp3sip5y.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpcp3sip5y.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a01242c9",
+      "input_values": {
+        "tasks_data": "Worker count must be greater than zero",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: Worker count must be greater than zero"
+      },
+      "actual_output": null,
+      "execution_time": 0.3163,
+      "memory_usage": 11.87,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjp7q0wlq.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjp7q0wlq.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjp7q0wlq.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpjp7q0wlq.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8be7dc80",
+      "input_values": {
+        "tasks_data": "status",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: status"
+      },
+      "actual_output": null,
+      "execution_time": 0.2173,
+      "memory_usage": 11.3,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpphql_6q1.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpphql_6q1.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpphql_6q1.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpphql_6q1.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "298464de",
+      "input_values": {
+        "tasks_data": "oversized_limit",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: oversized_limit"
+      },
+      "actual_output": null,
+      "execution_time": 0.212,
+      "memory_usage": 11.22,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpub82bklq.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpub82bklq.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpub82bklq.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpub82bklq.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6ded3006",
+      "input_values": {
+        "tasks_data": "priority",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: priority"
+      },
+      "actual_output": null,
+      "execution_time": 0.2159,
+      "memory_usage": 11.94,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7wbsvys7.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7wbsvys7.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7wbsvys7.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7wbsvys7.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f422b62e",
+      "input_values": {
+        "tasks_data": "assignments",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: assignments"
+      },
+      "actual_output": null,
+      "execution_time": 0.316,
+      "memory_usage": 12.44,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuigh50vb.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuigh50vb.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuigh50vb.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuigh50vb.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "fa05c01c",
+      "input_values": {
+        "tasks_data": "task_id",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: task_id"
+      },
+      "actual_output": null,
+      "execution_time": 0.2177,
+      "memory_usage": 11.63,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv5ouumgt.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv5ouumgt.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv5ouumgt.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv5ouumgt.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f88f6277",
+      "input_values": {
+        "tasks_data": 99,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.213,
+      "memory_usage": 11.49,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvey9qibt.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvey9qibt.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvey9qibt.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpvey9qibt.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "c60108fc",
+      "input_values": {
+        "tasks_data": 100,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2111,
+      "memory_usage": 9.52,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfxw1sr41.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfxw1sr41.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfxw1sr41.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpfxw1sr41.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1605f7e7",
+      "input_values": {
+        "tasks_data": 101,
+        "global_limit": 1,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2096,
+      "memory_usage": 12.66,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaytli1pc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaytli1pc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaytli1pc.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaytli1pc.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "fb869fe9",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 99,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2167,
+      "memory_usage": 10.91,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_i5tw8c_.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_i5tw8c_.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_i5tw8c_.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp_i5tw8c_.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "41be05db",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 100,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2146,
+      "memory_usage": 11.7,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7mheoy93.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7mheoy93.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7mheoy93.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp7mheoy93.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "53b37523",
+      "input_values": {
+        "tasks_data": 1,
+        "global_limit": 101,
+        "_strategy": "Contextual Edge: 100 Neighbors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2163,
+      "memory_usage": 10.84,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuerb6t57.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuerb6t57.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuerb6t57.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuerb6t57.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "d6c4a02b",
+      "input_values": {
+        "tasks_data": "worker_distribution",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: worker_distribution"
+      },
+      "actual_output": null,
+      "execution_time": 0.2159,
+      "memory_usage": 11.81,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppj8km1j9.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppj8km1j9.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppj8km1j9.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppj8km1j9.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "1d42a154",
+      "input_values": {
+        "tasks_data": "empty",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: empty"
+      },
+      "actual_output": null,
+      "execution_time": 0.2167,
+      "memory_usage": 12.34,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3g7jlt1a.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3g7jlt1a.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3g7jlt1a.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp3g7jlt1a.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "06b0b37a",
+      "input_values": {
+        "tasks_data": "standard",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: standard"
+      },
+      "actual_output": null,
+      "execution_time": 0.2165,
+      "memory_usage": 11.53,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppwdzfrcq.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppwdzfrcq.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppwdzfrcq.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppwdzfrcq.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "e87b16cf",
+      "input_values": {
+        "tasks_data": "complexity",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: complexity"
+      },
+      "actual_output": null,
+      "execution_time": 0.2153,
+      "memory_usage": 10.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn84bclzw.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn84bclzw.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn84bclzw.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn84bclzw.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "5b5fb6af",
+      "input_values": {
+        "tasks_data": "remaining_count",
+        "global_limit": 1,
+        "_strategy": "Literals Matching: remaining_count"
+      },
+      "actual_output": null,
+      "execution_time": 0.2169,
+      "memory_usage": 11.86,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn5ayk91t.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn5ayk91t.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn5ayk91t.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpn5ayk91t.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "70678793",
+      "input_values": {
+        "tasks_data": "' OR '1'='1",
+        "global_limit": 1,
+        "_strategy": "Security: Injection Vectors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2158,
+      "memory_usage": 10.87,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppezvz_ul.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppezvz_ul.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppezvz_ul.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppezvz_ul.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6466d460",
+      "input_values": {
+        "tasks_data": "<script>alert(1)</script>",
+        "global_limit": 1,
+        "_strategy": "Security: Injection Vectors"
+      },
+      "actual_output": null,
+      "execution_time": 0.3144,
+      "memory_usage": 10.88,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxqyi547c.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxqyi547c.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxqyi547c.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpxqyi547c.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b0179b3d",
+      "input_values": {
+        "tasks_data": "../etc/passwd",
+        "global_limit": 1,
+        "_strategy": "Security: Injection Vectors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2114,
+      "memory_usage": 12.45,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppjdasxa4.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppjdasxa4.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppjdasxa4.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppjdasxa4.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "3d7d34ab",
+      "input_values": {
+        "tasks_data": "\u0000",
+        "global_limit": 1,
+        "_strategy": "Security: Injection Vectors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2117,
+      "memory_usage": 11.03,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp92qaqvvh.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp92qaqvvh.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp92qaqvvh.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp92qaqvvh.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "0723dfa8",
+      "input_values": {
+        "tasks_data": "%s%s%s",
+        "global_limit": 1,
+        "_strategy": "Security: Injection Vectors"
+      },
+      "actual_output": null,
+      "execution_time": 0.2162,
+      "memory_usage": 12.47,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt9w7xuox.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt9w7xuox.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt9w7xuox.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpt9w7xuox.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'str' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a707c14d",
+      "input_values": {
+        "tasks_data": -946,
+        "global_limit": 292,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2166,
+      "memory_usage": 11.18,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9atmmyme.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9atmmyme.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9atmmyme.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9atmmyme.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "050f6ef5",
+      "input_values": {
+        "tasks_data": 459,
+        "global_limit": -337,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2153,
+      "memory_usage": 11.82,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9z2z6668.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9z2z6668.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9z2z6668.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp9z2z6668.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "cf34a8b1",
+      "input_values": {
+        "tasks_data": 491,
+        "global_limit": 14,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.3247,
+      "memory_usage": 10.22,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnqp0316t.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnqp0316t.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnqp0316t.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpnqp0316t.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "d249b024",
+      "input_values": {
+        "tasks_data": -641,
+        "global_limit": -634,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.3176,
+      "memory_usage": 12.87,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp79r3vfe0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp79r3vfe0.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp79r3vfe0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp79r3vfe0.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "556814d3",
+      "input_values": {
+        "tasks_data": -823,
+        "global_limit": -296,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.3195,
+      "memory_usage": 13.25,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo0_8a9jx.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo0_8a9jx.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo0_8a9jx.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo0_8a9jx.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "037452d6",
+      "input_values": {
+        "tasks_data": 222,
+        "global_limit": 823,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2152,
+      "memory_usage": 10.95,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuxbcnk7y.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuxbcnk7y.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuxbcnk7y.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpuxbcnk7y.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "f4880622",
+      "input_values": {
+        "tasks_data": -539,
+        "global_limit": -956,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2127,
+      "memory_usage": 11.23,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2t8db_9d.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2t8db_9d.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2t8db_9d.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp2t8db_9d.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "48875083",
+      "input_values": {
+        "tasks_data": 892,
+        "global_limit": 509,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2104,
+      "memory_usage": 12.03,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv_0ol_b0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv_0ol_b0.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv_0ol_b0.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpv_0ol_b0.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "478e9291",
+      "input_values": {
+        "tasks_data": -543,
+        "global_limit": -29,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2129,
+      "memory_usage": 11.26,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8c7k3mys.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8c7k3mys.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8c7k3mys.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp8c7k3mys.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "70decb16",
+      "input_values": {
+        "tasks_data": 558,
+        "global_limit": 716,
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2145,
+      "memory_usage": 11.95,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3grru2.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3grru2.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3grru2.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3grru2.py\", line 68, in schedule_tasks\n    for t in tasks_data:\n             ^^^^^^^^^^\nTypeError: 'int' object is not iterable\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b79c3300",
+      "input_values": {
+        "tasks": null,
+        "_strategy": "CRITICAL: Null Check (tasks)"
+      },
+      "actual_output": "{\"status\": \"empty\", \"assignments\": {}}",
+      "execution_time": 0.2135,
+      "memory_usage": 11.53,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\n{\"status\": \"empty\", \"assignments\": {}}\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "ee742c66",
+      "input_values": {
+        "tasks": [],
+        "_strategy": "CRITICAL: Empty Check (tasks)"
+      },
+      "actual_output": "{\"status\": \"empty\", \"assignments\": {}}",
+      "execution_time": 0.2164,
+      "memory_usage": 10.77,
+      "status": "PASS",
+      "exception_trace": null,
+      "stdout": "---RESULT---\n{\"status\": \"empty\", \"assignments\": {}}\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "8c02f056",
+      "input_values": {
+        "tasks": [
+          10,
+          5,
+          7,
+          3,
+          3,
+          4,
+          6
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2112,
+      "memory_usage": 10.84,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph4mxytvi.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph4mxytvi.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph4mxytvi.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph4mxytvi.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph4mxytvi.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmph4mxytvi.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "bf18dd3a",
+      "input_values": {
+        "tasks": [
+          7,
+          7,
+          0,
+          4,
+          3,
+          1,
+          4,
+          1,
+          4,
+          9
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.3177,
+      "memory_usage": 13.15,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpou00t40h.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpou00t40h.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpou00t40h.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpou00t40h.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpou00t40h.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpou00t40h.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "93f4ef44",
+      "input_values": {
+        "tasks": [
+          0,
+          3,
+          7,
+          1,
+          3,
+          8,
+          4,
+          8
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.218,
+      "memory_usage": 9.51,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaczubhtn.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaczubhtn.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaczubhtn.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaczubhtn.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaczubhtn.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpaczubhtn.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "b6a8c957",
+      "input_values": {
+        "tasks": [
+          9,
+          6,
+          4,
+          4,
+          10,
+          4,
+          3
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2097,
+      "memory_usage": 11.85,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpivvtqdkt.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpivvtqdkt.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpivvtqdkt.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpivvtqdkt.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpivvtqdkt.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpivvtqdkt.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "7a5fdb27",
+      "input_values": {
+        "tasks": [
+          0
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2143,
+      "memory_usage": 10.68,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4voard6n.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4voard6n.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4voard6n.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4voard6n.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4voard6n.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmp4voard6n.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "bff326ea",
+      "input_values": {
+        "tasks": [
+          2,
+          3,
+          8,
+          9,
+          3,
+          7,
+          0
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2127,
+      "memory_usage": 12,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkjrb00rs.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkjrb00rs.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkjrb00rs.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkjrb00rs.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkjrb00rs.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpkjrb00rs.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "a1f617dd",
+      "input_values": {
+        "tasks": [
+          9
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.3138,
+      "memory_usage": 13.12,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3_0acv.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3_0acv.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3_0acv.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3_0acv.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3_0acv.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpbh3_0acv.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "6e4f8d1f",
+      "input_values": {
+        "tasks": [
+          6,
+          7,
+          3,
+          0,
+          7,
+          10,
+          8,
+          8,
+          5,
+          10
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.3144,
+      "memory_usage": 11.88,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppe1ktx7z.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppe1ktx7z.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppe1ktx7z.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppe1ktx7z.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppe1ktx7z.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmppe1ktx7z.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "23ea466d",
+      "input_values": {
+        "tasks": [
+          4,
+          2,
+          0,
+          9,
+          2
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2167,
+      "memory_usage": 9.51,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo_yhmgd1.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo_yhmgd1.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo_yhmgd1.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo_yhmgd1.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo_yhmgd1.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpo_yhmgd1.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    },
+    {
+      "test_id": "47a6f2e1",
+      "input_values": {
+        "tasks": [
+          6,
+          6,
+          0,
+          9,
+          9,
+          8
+        ],
+        "_strategy": "Random Chaos Fuzzing"
+      },
+      "actual_output": null,
+      "execution_time": 0.2145,
+      "memory_usage": 11,
+      "status": "ERROR",
+      "exception_trace": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzbv519xw.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzbv519xw.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzbv519xw.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stdout": "---ERROR---\nTraceback (most recent call last):\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzbv519xw.py\", line 184, in run_test\n    result = func(**args)\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzbv519xw.py\", line 158, in run_simulation\n    return lb.schedule_tasks(tasks, global_limit=200)\n           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Vibha\\AppData\\Local\\Temp\\tmpzbv519xw.py\", line 72, in schedule_tasks\n    if t.get('duration', 0) < 0 or t.get('priority', 0) < 0:\n       ^^^^^\nAttributeError: 'int' object has no attribute 'get'\n\n",
+      "stderr": ""
+    }
+  ]
+}
