@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = '/api/v1';
+const API_BASE = 'https://automatictestcasegeneratorandevaluator.onrender.com';
 
 const api = {
     analyze: async (code, language) => {
