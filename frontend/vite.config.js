@@ -7,7 +7,7 @@ export default defineConfig({
         port: 3000,
         proxy: {
             '/api': {
-                target: 'http://localhost:8000',
+                target: 'https://automatic-test-case-g-eneratorand-e.vercel.app/',
                 changeOrigin: true
             }
         }
